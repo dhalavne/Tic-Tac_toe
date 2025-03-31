@@ -1,0 +1,68 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.container {
+    width: 18vw;
+    height: 18vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px auto 20px;
+}
+
+.container > div {
+   width: 6vw;
+   height: 6vw;
+   padding: 1vw;
+   text-align: center;
+   font-size: 4vw;
+}
+
+.bottom-right {
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.right {
+    border-right: 5px solid black;
+}
+
+.bottom {
+    border-bottom: 5px solid black;
+}
+
+p {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-left: 40vw;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+#getNames {
+    margin: 10px 40vw;
+}
+
+#buttons {
+    display: flex;
+    width: 20vw;
+    justify-content: space between;
+    margin-left: 40vw;
+    margin-top: 40px;
+}
+
+input {
+    height: 30px;
+    width: 20vw;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    margin: 10px auto 10px;
+}
